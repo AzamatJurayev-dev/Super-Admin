@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_histories",
+  "info": {
+    "displayName": "history"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "richtext"
+    },
+    "ru": {
+      "type": "richtext"
+    },
+    "en": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_experiences",
+  "info": {
+    "displayName": "experience"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "richtext"
+    },
+    "ru": {
+      "type": "richtext"
+    },
+    "en": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_name_names",
+  "info": {
+    "displayName": "name"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "string"
+    },
+    "ru": {
+      "type": "string"
+    },
+    "en": {
+      "type": "string"
+    }
+  }
+}

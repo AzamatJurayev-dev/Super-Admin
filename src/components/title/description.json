@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_title_descriptions",
+  "info": {
+    "displayName": "description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "text"
+    },
+    "ru": {
+      "type": "text"
+    },
+    "en": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "org_infos",
+  "info": {
+    "singularName": "org-info",
+    "pluralName": "org-infos",
+    "displayName": "org-info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "short_number": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    }
+  }
+}

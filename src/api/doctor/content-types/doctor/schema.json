@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors",
+  "info": {
+    "singularName": "doctor",
+    "pluralName": "doctors",
+    "displayName": "doctor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "displayName": "name",
+      "type": "component",
+      "repeatable": false,
+      "component": "name.name"
+    },
+    "about": {
+      "displayName": "about",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about"
+    },
+    "experience": {
+      "displayName": "experience",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.experience"
+    },
+    "education": {
+      "displayName": "education",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.education"
+    },
+    "award": {
+      "displayName": "award",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.award"
+    },
+    "workExperience": {
+      "type": "integer"
+    },
+    "departments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::department.department",
+      "onDelete": "restrict"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "photos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::photo.photo"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_abouts",
+  "info": {
+    "displayName": "about"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "text"
+    },
+    "en": {
+      "type": "text"
+    },
+    "ru": {
+      "type": "text"
+    }
+  }
+}

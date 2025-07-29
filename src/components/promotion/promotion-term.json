@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_promotion_promotion_terms",
+  "info": {
+    "displayName": "promotion_term"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "text"
+    },
+    "en": {
+      "type": "text"
+    },
+    "ru": {
+      "type": "text"
+    }
+  }
+}

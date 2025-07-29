@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_educations",
+  "info": {
+    "displayName": "education"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "richtext"
+    },
+    "ru": {
+      "type": "richtext"
+    },
+    "en": {
+      "type": "richtext"
+    }
+  }
+}

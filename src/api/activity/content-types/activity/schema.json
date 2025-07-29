@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activities",
+  "info": {
+    "singularName": "activity",
+    "pluralName": "activities",
+    "displayName": "activity"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_us": {
+      "displayName": "about_us",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-us"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.description"
+    },
+    "history": {
+      "displayName": "history",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.history"
+    },
+    "mission": {
+      "displayName": "mission",
+      "type": "component",
+      "repeatable": false,
+      "component": "mission.mission"
+    },
+    "licenses_images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

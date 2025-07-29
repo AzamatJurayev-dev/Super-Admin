@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_mission_missions",
+  "info": {
+    "displayName": "mission"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "text"
+    },
+    "ru": {
+      "type": "text"
+    },
+    "en": {
+      "type": "text"
+    }
+  }
+}

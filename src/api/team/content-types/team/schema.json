@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "team",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": false,
+      "component": "name.name"
+    },
+    "role": {
+      "displayName": "role",
+      "type": "component",
+      "repeatable": false,
+      "component": "name.role"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "employeeRole": {
+      "type": "enumeration",
+      "enum": [
+        "seller",
+        "marketer",
+        "accountant"
+      ]
+    }
+  }
+}

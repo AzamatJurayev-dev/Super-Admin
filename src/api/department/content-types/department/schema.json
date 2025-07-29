@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "departments",
+  "info": {
+    "singularName": "department",
+    "pluralName": "departments",
+    "displayName": "department",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.description"
+    },
+    "subDesc": {
+      "displayName": "subDesc",
+      "type": "component",
+      "repeatable": false,
+      "component": "title.sub-desc"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleUz": {
+      "type": "string"
+    },
+    "titleRu": {
+      "type": "string"
+    },
+    "titleEn": {
+      "type": "string"
+    },
+    "photos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::photo.photo"
+    }
+  }
+}

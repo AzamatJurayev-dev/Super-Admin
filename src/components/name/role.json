@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_name_roles",
+  "info": {
+    "displayName": "role"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "string"
+    },
+    "ru": {
+      "type": "string"
+    },
+    "en": {
+      "type": "string"
+    }
+  }
+}

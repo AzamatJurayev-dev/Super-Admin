@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_title_sub_descs",
+  "info": {
+    "displayName": "subDesc"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "richtext"
+    },
+    "ru": {
+      "type": "richtext"
+    },
+    "en": {
+      "type": "richtext"
+    }
+  }
+}

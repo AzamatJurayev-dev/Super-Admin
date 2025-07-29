@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_awards",
+  "info": {
+    "displayName": "award"
+  },
+  "options": {},
+  "attributes": {
+    "uz": {
+      "type": "richtext"
+    },
+    "ru": {
+      "type": "richtext"
+    },
+    "en": {
+      "type": "richtext"
+    }
+  }
+}
