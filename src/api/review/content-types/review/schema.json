@@ -18,10 +18,14 @@
     "review_star": {
       "type": "decimal"
     },
-    "users_permissions_users": {
+    "users_permissions_user": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "isShow": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

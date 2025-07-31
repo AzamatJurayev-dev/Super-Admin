@@ -66,6 +66,18 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::photo.photo"
+    },
+    "doctorType": {
+      "type": "boolean",
+      "default": false
+    },
+    "docEnum": {
+      "type": "enumeration",
+      "enum": [
+        "all",
+        "children",
+        "adults"
+      ]
     }
   }
 }

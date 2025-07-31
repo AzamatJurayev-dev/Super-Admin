@@ -47,6 +47,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::photo.photo"
+    },
+    "service": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service.service",
+      "mappedBy": "department"
     }
   }
 }

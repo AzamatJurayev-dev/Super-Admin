@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.description"
+    },
+    "department": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::department.department",
+      "inversedBy": "service"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "all ",
+        "children",
+        "adults"
+      ]
+    }
+  }
+}
