@@ -34,25 +34,20 @@
         "audios"
       ]
     },
-    "titleUz": {
-      "type": "string"
-    },
-    "titleRu": {
-      "type": "string"
-    },
-    "titleEn": {
-      "type": "string"
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
     },
     "photos": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::photo.photo"
-    },
-    "service": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::service.service",
-      "mappedBy": "department"
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

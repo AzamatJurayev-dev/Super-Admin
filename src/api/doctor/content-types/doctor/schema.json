@@ -62,11 +62,6 @@
         "audios"
       ]
     },
-    "photos": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::photo.photo"
-    },
     "doctorType": {
       "type": "boolean",
       "default": false
@@ -78,6 +73,32 @@
         "children",
         "adults"
       ]
+    },
+    "workSchedule": {
+      "displayName": "work-schedule",
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.work-schedule"
+    },
+    "workPhotos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "appointmentDuration": {
+      "type": "integer"
+    },
+    "book_appointment": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::book-appointment.book-appointment",
+      "inversedBy": "doctor"
     }
   }
 }

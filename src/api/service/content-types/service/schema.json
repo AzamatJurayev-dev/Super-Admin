@@ -4,7 +4,8 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "service"
+    "displayName": "service",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,8 +25,7 @@
     "department": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::department.department",
-      "inversedBy": "service"
+      "target": "api::department.department"
     },
     "price": {
       "type": "biginteger"
@@ -33,10 +33,15 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "all ",
+        "all",
         "children",
         "adults"
       ]
+    },
+    "doctors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::doctor.doctor"
     }
   }
 }

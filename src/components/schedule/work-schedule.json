@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_schedule_work_schedules",
+  "info": {
+    "displayName": "work-schedule"
+  },
+  "options": {},
+  "attributes": {
+    "monday": {
+      "displayName": "monday",
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.monday"
+    },
+    "tuesday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.monday"
+    },
+    "wednesday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.monday"
+    },
+    "thursday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.monday"
+    },
+    "friday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.monday"
+    },
+    "saturday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.monday"
+    },
+    "sunday": {
+      "type": "component",
+      "repeatable": false,
+      "component": "schedule.monday"
+    }
+  }
+}

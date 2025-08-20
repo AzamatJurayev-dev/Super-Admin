@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_schedule_mondays",
+  "info": {
+    "displayName": "monday",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "start_time": {
+      "type": "string"
+    },
+    "end_time": {
+      "type": "string"
+    }
+  }
+}
